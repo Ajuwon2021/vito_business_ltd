@@ -1,0 +1,490 @@
+/*------------------------------------------------------------------
+    PORTFOLIO
+-------------------------------------------------------------------*/
+
+.item-h2,
+.item-h1 {
+    height: 100% !important;
+    height: auto !important;
+}
+
+.isotope-item {
+    z-index: 2;
+    padding: 0;
+}
+
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+
+.isotope,
+.isotope .isotope-item {
+    /* change duration value to whatever you like */
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+.portfolio-filter ul {
+    padding: 0;
+    z-index: 2;
+    display: block;
+    position: relative;
+    margin: 0;
+}
+
+.portfolio-filter ul li {
+    border-radius: 0;
+    display: inline-block;
+    margin: 0 5px 0 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.portfolio-filter ul li:last-child:after {
+    content: "";
+}
+
+.portfolio-filter ul li .btn-dark {
+    box-shadow: none;
+    background-color: transparent;
+    border: 1px solid #e6e7e6 !important;
+    color: #1f1f1f;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 10px 30px;
+}
+
+.da-thumbs {
+    list-style: none;
+    position: relative;
+    padding: 0;
+}
+
+.da-thumbs .pitem {
+    margin: 0;
+    padding: 15px;
+    position: relative;
+}
+
+.da-thumbs .pitem a,
+.da-thumbs .pitem a img {
+    display: block;
+    position: relative;
+}
+
+.da-thumbs .pitem a {
+    overflow: hidden;
+}
+
+.da-thumbs .pitem a div {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+}
+
+.da-thumbs .pitem a div h3 {
+    display: block;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 30px 15px;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+.da-thumbs .pitem a div h3 small {
+    display: block;
+    color: #ffffff;
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.da-thumbs .pitem a div i {
+    background-color: #1f1f1f;
+    position: absolute;
+    color: #ffffff !important;
+    bottom: 0;
+    font-size: 15px;
+    z-index: 12;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.my_btn_control {
+    margin-bottom: 20px;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+
+/*.btn.active {
+    background-color: #4CAF50 !important;
+    color: white !important;
+}*/
+
+
+#portfolio {
+    box-sizing: border-box;
+    padding: 20px;
+    margin: auto;
+}
+
+.html_2 {
+    background-color: #402878 !important;
+    padding: 10px !important;
+    color: #fff !important;
+}
+
+.html_2 h3 {
+    color: #fff !important;
+}
+
+#portfolio .row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+#portfolio .row,
+#portfolio .row>.column {
+    padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+#portfolio .column {
+    float: left;
+    width: 15%;
+    display: block;
+    /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+#portfolio .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+#portfolio .content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+#portfolio .show {
+    display: block;
+}
+
+/* Style the buttons */
+#portfolio #myBtnContainer .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #333333;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+#portfolio #myBtnContainer .btn:hover {
+    background-color: #fff;
+    color: #333333;
+    font-weight: bolder;
+}
+
+/* Add a dark background color to the active button */
+#portfolio #myBtnContainer .btn.active {
+    background-color: #F85A71;
+    color: #fff;
+}
+
+.portfolio_gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.project_grid {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.project_grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.project_grid_overlay {
+    text-align: center;
+    font-size: 20px;
+    line-height: 2.5px;
+    color: #333;
+    margin: 0;
+}
+
+a .project_grid_overlay h3 {
+    font-size: 15px;
+}
+
+a .project_grid_overlay h3:hover,
+a .project_grid_overlay p:hover {
+    color: #F85A71 !important;
+}
+
+.project_grid:hover img {
+    transform: scale(1.1);
+}
+
+.project_grid:hover .project_grid_overlay {
+    opacity: 1;
+}
+
+/* Divider Styles */
+
+.divider-wrapper {
+    width: 100%;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
+    height: 540px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.divider-wrapper:hover {
+    cursor: none;
+}
+
+.divider-bar {
+    position: absolute;
+    width: 10px;
+    left: 50%;
+    top: -10px;
+    bottom: -15px;
+}
+
+.code-wrapper {
+    border: 1px solid #ffffff;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: url("uploads/code.jpg") no-repeat;
+}
+
+.design-wrapper {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+}
+
+.design-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url("uploads/design.jpg") no-repeat;
+}
+
+.filter-button-group {
+    border-radius: 0px;
+    margin: 10px 0px;
+    display: block;
+    border-radius: 100px 100px 0px 100px;
+}
+
+.filter-button-group button.active {
+    background: #F85A71;
+    color: #fff;
+    box-shadow: 2px 20px 45px 5px rgba(0, 0, 0, .2);
+    border-radius: 100px 100px 0px 100px;
+}
+
+.filter-button-group button {
+    color: #333;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    background: #fff;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 0px;
+    border-radius: 100px 100px 0px 100px;
+}
+
+
+.gallery-single {
+    margin: 30px 15px;
+    ;
+}
+
+.gallery-single {
+    position: relative;
+    overflow: hidden;
+    border-radius: 100px 100px 0px 100px;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.gallery-list .img-overlay {
+    border-radius: 100px 100px 0px 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: rgba(248, 90, 113, 0.80);
+    color: #35424C;
+    opacity: 0;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    z-index: 2;
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+}
+
+.gallery-list .gallery-single:hover .img-overlay {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.gallery-list .gallery-single:hover .img-overlay .hoverbutton {
+    opacity: 1;
+    top: 50%;
+}
+
+.gallery_link {
+    border-radius: 0px;
+    margin: 10px 0px;
+    display: block;
+    border-radius: 100px 100px 0px 100px;
+    background-color: #796b6d;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.gallery_link a {
+    color: #fff !important;
+    cursor: pointer;
+    font-size: 20px !important;
+}
+
+.gallery_link:hover {
+    background-color: #fff !important;
+    opacity: 1 !important;
+}
+
+.gallery_link a:hover {
+    color: #F85A71 !important;
+}
+
+.post-box .date {
+    display: inline-block;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background: #F85A71;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.post-thumb {
+    position: relative;
+    border-radius: 100px 100px 0px 100px;
+    overflow: hidden;
+}
+
+.post-box {
+    -webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+    box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+    background: #ffffff;
+    border-radius: 100px 100px 0px 0px;
+}
+
+.post-box:hover .post-thumb::before {
+    opacity: .6;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+
+.post-box .post-thumb::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(51, 51, 51, 0.80);
+    opacity: 0;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+}
+
+.post-info {
+    padding: 0px 15px 40px 15px;
+    background: #ffffff;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.post-info p {
+    margin: 0px;
+}
+
+.post-info h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.post-info ul {
+    display: block;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.post-info ul li {
+    display: inline-block;
+    text-align: center;
+}
