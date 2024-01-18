@@ -2194,6 +2194,10 @@ ul.social_icon li a {
 	height: 250px !important;
 }
 
+.services {
+	background-color: #F2F3F5;
+}
+
 .services-inner-box {
 	padding: 15px;
 	background: #ffffff;
@@ -2202,6 +2206,7 @@ ul.social_icon li a {
 	position: relative;
 	transition: all 0.3s ease-in-out 0s;
 	text-align: center;
+	
 }
 
 .ser-icon {
@@ -2279,4 +2284,43 @@ ul.social_icon li a {
 
 .serv {
 	background-color: #F2F3F5;
+}
+
+.video {
+	width: 600px;
+	margin: auto;
+}
+
+.heading {
+	margin-left: 480px;
+}
+
+.about_img img {
+	width: 400px;
+	height: 350px;
+	border-radius: 50%;
+	background-color: #fff;
+	margin-left: 50px;
+}
+
+.about_content {
+	width: 400px;
+	height: 350px;
+	border-radius: 50%;
+	background-color: #fff;
+	margin-left: 0px;
+}
+
+.about_content .blog_cont, .about_miss {
+	width: 80%;
+	text-align: center;
+	margin: 50px 50px;
+}
+
+.rep_field {
+	max-height: fit-content;
+}
+.rep_field img {
+	width: 250px !important;
+	margin-left: 120px !important;
 }

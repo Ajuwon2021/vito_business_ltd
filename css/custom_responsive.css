@@ -1,0 +1,149 @@
+/* Mobile Devices (320px to 767px) */
+@media only screen and (max-width: 767px) {
+    header {
+        height: 80px;
+        width: 100% !important;
+    }
+
+    header img {
+        width: 100px !important;
+        margin-left: -200px;
+    }
+
+    .logo_section::after {
+        display: none;
+    }
+
+    .mean-container a.meanmenu-reveal {
+        margin-top: -100px;
+
+    }
+
+#slider_main a.carousel-control-prev, #slider_main a.carousel-control-next {
+    width: 31px;
+    height: 30px;
+    font-size: 25px;
+    margin-top: -40px;
+}
+
+
+    .mean-container .mean-bar a {
+        font-size: 12px !important;
+        font-weight: bolder !important;
+    }
+
+.slider_cont_section h4 {
+    text-align: center;
+    font-size: 21px !important;
+    margin-top: 20px !important;
+}
+
+.slider_cont_section h3 {
+    text-align: center;
+    font-size: 30px !important;
+    margin-top: 20px !important;
+}
+
+.slider_cont_section .button_section a {
+    background-color: #fff;
+    color: #0F0824;
+}
+
+.header_ctn {
+    margin-top: -40px !important;
+}
+
+.slider_cont_section p {
+    text-align: center;
+}
+
+.us, .serv_head {
+    background-color: transparent !important;
+}
+
+.about_container .heading h3, .services .heading h3, .proj .heading h3 {
+    margin-left: -460px !important;
+}
+
+.about_img img {
+    display: none;
+}
+
+.about_content {
+    height: 250px !important;
+}
+
+.blog_cont {
+    margin: 25px !important;
+}
+
+.services .ser-icon i {
+    margin-left: 70px !important;    
+}
+
+.services .top_30 .button_section {
+    margin-top: -20px !important;
+}
+
+.proj_ctn .header_ctn h3 {
+    margin-left: -420px !important;
+    padding: 0px !important;
+}
+
+.proj .section-title {
+    font-size: 13px !important;
+    width: 300px;
+    text-align: center;
+    margin-top: -50px;
+    margin-left: -45px;
+}
+
+.card-deck .card-title {
+    
+            width: 250px !important;
+            margin-left: -45px;
+            font-size: 14px;
+}
+
+.card-deck .card-body p {
+
+    width: 250px !important;
+    margin-left: -35px;
+    font-size: 15px;
+}
+
+.card-deck .button_section {
+    margin-top: -20px !important;
+    margin-bottom: -50px;
+}
+
+footer .foot_logo {
+    margin-left: 85px !important;
+}
+
+.contact_information ul li i {
+    width: 250px !important;
+        font-size: 12px !important;
+}
+
+.mail_img .text_cont {
+    margin-top: 25px !important;
+        margin-left: -135px;
+}
+
+.mail_img img {
+    margin-left: 120px !important;
+}
+ 
+}
+
+
+
+
+
+
+/* Tablets (768px to 1199px) */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {}
+
+/* Laptops and Desktops (1200px and above) */
+@media only screen and (min-width: 1200px) {}
