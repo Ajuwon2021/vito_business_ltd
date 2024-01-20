@@ -479,6 +479,10 @@ header {
 	right: -57px;
 }
 
+.logo_section::after {
+	display: none;
+}
+
 nav.main-menu {
 	float: left;
 	margin-left: 0;
@@ -1740,6 +1744,7 @@ input[type="radio"] .styled:checked+label::after {
 	font-weight: 600;
 	padding: 0;
 	margin: 0;
+	line-height: 3;
 }
 
 .slider_cont_section h3 {
