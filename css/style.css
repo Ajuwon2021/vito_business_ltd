@@ -2329,3 +2329,8 @@ ul.social_icon li a {
 	width: 250px !important;
 	margin-left: 120px !important;
 }
+
+.readmore_link a {
+	color: #007bff;
+	font-weight: bolder;
+}
