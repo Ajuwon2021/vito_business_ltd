@@ -2325,12 +2325,31 @@ ul.social_icon li a {
 .rep_field {
 	max-height: fit-content;
 }
-.rep_field img {
-	width: 250px !important;
-	margin-left: 120px !important;
+.rep_field .team_card {
+	right: auto;
+	margin: auto !important;
+}
+
+.team_card {
+	width: 200px !important;
+	margin: auto !important;
 }
 
 .readmore_link a {
 	color: #007bff;
 	font-weight: bolder;
+}
+
+.card_body_text {
+	width: 70%;
+	margin: auto;
+}
+
+.card_body_text span {
+	font-weight: 900;
+}
+
+.card_body_text .vit {
+	color: red;
+	font-size: 20px !important;
 }

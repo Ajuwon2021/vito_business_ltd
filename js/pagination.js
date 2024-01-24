@@ -5,7 +5,7 @@ var pageIndicator = document.getElementById( 'page' );
 var galleryDots = document.getElementById( 'gallery-dots' );
 
 var images = [];
-var totalImages = 40; // Set the total number of images
+var totalImages = 42; // Set the total number of images
 
 for ( var i = 1; i <= totalImages; i++ )
 {
