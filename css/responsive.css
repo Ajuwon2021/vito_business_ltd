@@ -3311,6 +3311,12 @@
 	.aboutheading h3, .Marketingheading h3, .Blogheading h3, .contactheading h3 {
 		font-size: 40px !important;
 	}
+
+	.par {
+		width: 100% !important;
+		margin: auto;
+		text-align: center;
+	}
 }
 
 @media only screen and (max-width: 375px) {
@@ -3389,6 +3395,12 @@
 
 	.main-about h2 button {
 		margin-left: auto !important;
+	}
+
+	.par {
+		width: 100% !important;
+		margin: auto;
+		text-align: center;
 	}
 }
 

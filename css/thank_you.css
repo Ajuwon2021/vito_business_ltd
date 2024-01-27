@@ -1,0 +1,18 @@
+.v-name {
+  margin-top: -50px;
+}
+
+.vis-name {
+  color: darkblue;
+  font-weight: 600;
+}
+
+.par {
+  width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+button a {
+  text-align: center !important;
+}
