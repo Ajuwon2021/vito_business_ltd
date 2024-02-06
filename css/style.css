@@ -223,6 +223,56 @@ button {
 	background: #38c8a8;
 }
 
+.wel-sec {
+	margin: 0;
+	padding: 0;
+	height: 80vh;
+	overflow: hidden;	
+}
+
+.welcome_section {
+	position: relative;
+	height: 100%;
+	background: url(/images/b1.jpg) no-repeat center center fixed;
+	background-size: cover;
+	filter: brightness(60%);
+	color: #ffffff;
+}
+
+.over_lay_col {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.intro {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.intro h3:first-child, .intro h3:last-child {
+	font-size: 50px;
+	color: #ffffff !important;
+}
+
+.intro h2 {
+	font-size: 60px;
+	font-weight: bold;
+	margin: 10px 0;
+	color: #ffffff !important;
+}
+
+.label_card {
+	margin-top: -150px;
+
+}
+
 .margin_top_30 {
 	margin-top: 30px !important;
 }
@@ -2305,7 +2355,7 @@ ul.social_icon li a {
 	height: 350px;
 	border-radius: 50%;
 	background-color: #fff;
-	margin-left: 50px;
+	
 }
 
 .about_content {
@@ -2322,17 +2372,38 @@ ul.social_icon li a {
 	margin: 50px 50px;
 }
 
-.rep_field {
-	max-height: fit-content;
-}
 .rep_field .team_card {
-	right: auto;
-	margin: auto !important;
+	height: 350px;
+}
+
+.team_email {
+	font-size: 20px;
+}
+
+.team_email i {
+	color: #007BFF;
+	font-size: 25px;
+	font-weight: bolder !important;
+}
+
+.team_email span {
+	font-size: 20px;
+}
+
+.rep_field .team_card img {
+	margin: 50px 0px 0px 150px !important;
+	width: 150px;
+	
 }
 
 .team_card {
-	width: 200px !important;
+	width: 150px !important;
 	margin: auto !important;
+}
+
+.team_card img {
+	margin: 50px 0px 0px 130px;
+	width: 300px;
 }
 
 .readmore_link a {
@@ -2352,4 +2423,84 @@ ul.social_icon li a {
 .card_body_text .vit {
 	color: red;
 	font-size: 20px !important;
+}
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+	background-color: transparent;
+	width: 300px;
+	height: 250px;
+	margin-top: 50px;
+	border: none;
+	perspective: 1000px;
+	/* Remove this if you don't want the 3D effect */
+}
+
+.flip-box-6 {
+	background-color: transparent;
+	width: 500px;
+	height: 300px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border: none;
+	perspective: 1000px;
+	/* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner, .flip-box-6:hover .flip-box-inner {
+	transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front,
+.flip-box-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	/* Safari */
+	backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+	background-color: #bbb;
+	color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+	background-color: #0F0824;
+	color: white;
+	transform: rotateY(180deg);
+}
+
+.flip-box-back .serv-icon i {
+	color: rgb(133, 90, 90) !important;
+	margin: 30px auto auto auto;
+	font-size: 70px;
+}
+
+.flip-box-back h2 {
+	color: #ffffff !important;
+	margin: 20px auto auto auto;
+	font-size: 20px;
+}
+
+.flip-box-back p {
+	color: #ffffff !important;
+	width: 250px;
+	margin: auto;
+	font-size: 12px;
 }

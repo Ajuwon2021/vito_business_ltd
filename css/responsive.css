@@ -2638,7 +2638,142 @@
 		margin-bottom: 35px;
 	}
 
-	.gal_box {}
+	header {
+			height: 80px !important;
+		}
+	
+		.menu-area {
+			margin-top: -50px;
+		}
+	
+		.mean-container a.meanmenu-reveal {
+			margin: -25px 0 0 0;
+		}
+	
+		.wel-sec {
+			margin: 0;
+			padding: 0;
+			height: 50vh;
+			overflow: hidden;
+		}
+	
+		.over_lay_col {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			margin: auto;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.5);
+		}
+	
+		.intro {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			text-align: center;
+		}
+	
+		.intro h3:first-child,
+		.intro h3:last-child {
+			font-size: 25px;
+			color: #ffffff !important;
+		}
+	
+		.intro h2 {
+			font-size: 30px;
+			font-weight: bold;
+			margin: 10px 0;
+			color: #ffffff !important;
+		}
+	
+		.about_image img {
+			margin-top: 20px;
+		}
+	
+		.label_card {
+			margin-top: -60px;
+	
+		}
+	
+		.services-inner-box {
+			margin-bottom: -20px;
+			margin-left: auto !important;
+		}
+	
+		.box-ser i {
+			margin: auto !important;
+		}
+
+		.ser-mar .services-inner-box {
+			margin: auto !important;
+			
+		}
+	
+		.serv-box {
+			margin-top: -10px !important;
+		}
+	
+		.proj {
+			margin-top: 50px;
+		}
+	
+		.pro-desc p {
+			max-width: 100%;
+			text-align: justify;
+		}
+	
+		.team_card img {
+			margin: 50px auto;
+		}
+	
+		.team_card .about_body {
+			padding: 0;
+			margin: auto;
+		}
+	
+		.team_card .about_body h2 {
+			font-size: small;
+			margin-top: -40px;
+		}
+	
+		.team_email span,
+		.team_email i {
+			width: 100%;
+			font-size: 8px;
+		}
+	
+		.rep_field .team_card img {
+			margin: 20px auto !important;
+		}
+	
+		.rep_field .team_card h2 {
+			margin-top: 0px;
+	
+		}
+	
+		.rep_field .team_card {
+			height: fit-content;
+		}
+	
+		.flip-box-6 img {
+			width: 50% !important;
+		}
+
+		.flip-box {
+			margin: 20px 10px;
+		}
+	
+		.last {
+			margin-bottom: 50px !important;
+		}
+
+	.flip-box-front {
+		width: 25% !important;
+	}
+
+		
 
 }
 
@@ -3317,6 +3452,139 @@
 		margin: auto;
 		text-align: center;
 	}
+
+	header {
+			height: 80px !important;
+		}
+	
+		.menu-area {
+			margin-top: -50px;
+		}
+	
+		.mean-container a.meanmenu-reveal {
+			margin: -25px 0 0 0;
+		}
+	
+		.wel-sec {
+			margin: 0;
+			padding: 0;
+			height: 50vh;
+			overflow: hidden;
+		}
+	
+		.over_lay_col {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			margin: auto;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.5);
+		}
+	
+		.intro {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			text-align: center;
+		}
+	
+		.intro h3:first-child,
+		.intro h3:last-child {
+			font-size: 25px;
+			color: #ffffff !important;
+		}
+	
+		.intro h2 {
+			font-size: 30px;
+			font-weight: bold;
+			margin: 10px 0;
+			color: #ffffff !important;
+		}
+	
+		.about_image img {
+			margin-top: 20px;
+		}
+	
+		.label_card {
+			margin-top: -60px;
+	
+		}
+	
+		.services-inner-box {
+			margin-bottom: -20px;
+			margin-left: auto !important;
+		}
+	
+		.box-ser i {
+			margin: auto !important;
+		}
+
+		.ser-mar .services-inner-box {
+			margin: auto !important;
+			
+		}
+	
+		.serv-box {
+			margin-top: -10px !important;
+		}
+	
+		.proj {
+			margin-top: 50px;
+		}
+	
+		.pro-desc p {
+			max-width: 100%;
+			text-align: justify;
+		}
+	
+		.team_card img {
+			margin: 50px auto;
+		}
+	
+		.team_card .about_body {
+			padding: 0;
+			margin: auto;
+		}
+	
+		.team_card .about_body h2 {
+			font-size: small;
+			margin-top: -40px;
+		}
+	
+		.team_email span,
+		.team_email i {
+			width: 100%;
+			font-size: 8px;
+		}
+	
+		.rep_field .team_card img {
+			margin: 20px auto !important;
+		}
+	
+		.rep_field .team_card h2 {
+			margin-top: 0px;
+	
+		}
+	
+	
+		.rep_field .team_card {
+			height: fit-content;
+		}
+	
+		.flip-box-6 {
+			width: 100% !important;
+			margin: 0px 0px 50px 0px !important;
+		}
+
+		.flip-box {
+			margin: 20px auto ;
+		}
+	
+		.last {
+			margin-bottom: 50px !important;
+		}
 }
 
 @media only screen and (max-width: 375px) {
@@ -3402,11 +3670,189 @@
 		margin: auto;
 		text-align: center;
 	}
+
+		header {
+			height: 80px !important;
+		}
+	
+		.menu-area {
+			margin-top: -50px;
+		}
+	
+		.mean-container a.meanmenu-reveal {
+			margin: -25px 0 0 0;
+		}
+	
+		.wel-sec {
+			margin: 0;
+			padding: 0;
+			height: 50vh;
+			overflow: hidden;
+		}
+	
+		.over_lay_col {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			margin: auto;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.5);
+		}
+	
+		.intro {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			text-align: center;
+		}
+	
+		.intro h3:first-child,
+		.intro h3:last-child {
+			font-size: 25px;
+			color: #ffffff !important;
+		}
+	
+		.intro h2 {
+			font-size: 30px;
+			font-weight: bold;
+			margin: 10px 0;
+			color: #ffffff !important;
+		}
+	
+		.about_image img {
+			margin-top: 20px;
+		}
+	
+		.label_card {
+			margin-top: -60px;
+	
+		}
+	
+		.services-inner-box {
+			margin-bottom: -20px;
+			margin-left: auto !important;
+		}
+	
+		.box-ser i {
+			margin: auto !important;
+		}
+
+		.ser-mar .services-inner-box {
+			margin: auto !important;
+			
+		}
+	
+		.serv-box {
+			margin-top: -10px !important;
+		}
+	
+		.proj {
+			margin-top: 50px;
+		}
+	
+		.pro-desc p {
+			max-width: 100%;
+			text-align: justify;
+		}
+	
+		.team_card img {
+			margin: 50px auto;
+		}
+	
+		.team_card .about_body {
+			padding: 0;
+			margin: auto;
+		}
+	
+		.team_card .about_body h2 {
+			font-size: small;
+			margin-top: -40px;
+		}
+	
+		.team_email span,
+		.team_email i {
+			width: 100%;
+			font-size: 8px;
+		}
+	
+		.rep_field .team_card img {
+			margin: 20px auto !important;
+		}
+	
+		.rep_field .team_card h2 {
+			margin-top: 0px;
+	
+		}
+	
+	
+		.rep_field .team_card {
+			height: fit-content;
+		}
+	
+		.flip-box-6 {
+			width: 100% !important;
+			margin: 0px 0px 50px 0px !important;
+		}
+	
+		.last {
+			margin-bottom: 50px !important;
+		}
 }
 
 @media only screen and (max-width: 320px) {
+	header {
+		height: 80px !important;
+	}
+
+	.menu-area {
+		margin-top: -50px;
+	}
+
+	.mean-container a.meanmenu-reveal {
+		margin: -25px 0 0 0;
+	}
+
+	.wel-sec {
+	margin: 0;
+	padding: 0;
+	height: 50vh;
+	overflow: hidden;	
+}
+
+.over_lay_col {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin: auto;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.intro {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.intro h3:first-child, .intro h3:last-child {
+	font-size: 25px;
+	color: #ffffff !important;
+}
+
+.intro h2 {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 10px 0;
+	color: #ffffff !important;
+}
+
 	.logo_section a img {
-		width: 100px;
+		width: 80px;
 		margin: 20px 0px 0px -200px !important;
 	}
 
@@ -3423,6 +3869,10 @@
 		width: 30%;
 	}
 
+	.label_card {
+		margin-top: -80px;
+	}
+
 	.wel_come .slider_cont_section .button_section {
 		margin: 50px -35px 0px -20px !important;
 		background-color: #fff;
@@ -3434,16 +3884,12 @@
 	}
 
 	.foot_top .foot_logo img {
-		margin: -70px 0px 0px 80px !important;
+		margin: -50px 0px 0px 60px !important;
 		width: 100px;
 	}
 
 	.ser-icon i {
 		margin-left: 80px !important;
-	}
-	
-	.rep_field img {
-		margin: auto !important;
 	}
 
 	.serv {
@@ -3460,6 +3906,10 @@
 		
 	.aboutheading h3, .Marketingheading h3, .Blogheading h3, .contactheading h3 {
 		font-size: 35px !important;
+	}
+
+	.about_image img {
+		margin-top: 20px;
 	}
 
 	.ser_vd {
@@ -3486,5 +3936,73 @@
 		width: min-content !important;
 		font-size: 8px;
 		padding: 5px;
+	}
+
+	.box-ser {
+		margin: auto !important;	
+	}
+
+	.services-inner-box {
+		margin-bottom: -20px;
+	}
+
+	.box-ser i {
+		margin: auto !important;
+	}
+
+	.serv-box {
+		margin-top: -10px !important;
+	}
+
+	.proj {
+		margin-top: 50px;
+	}
+
+	.pro-desc p {
+		max-width: 100%;
+		text-align: justify;
+	}
+
+	.team_card img {
+    	margin: 50px auto;
+	}
+
+	.team_card .about_body {
+		padding: 0;
+		margin: auto;
+	}
+
+	.team_card .about_body h2 {
+		font-size: small;
+		margin-top: -40px;
+	}
+
+	.team_email span, .team_email i {
+		width: 100%;
+		font-size: 8px;
+	}
+
+	.rep_field .team_card img {
+		margin: 20px auto !important;
+	}
+
+	.rep_field .team_card h2 {
+		margin-top: 0px;
+		
+	}
+
+	
+
+	.rep_field .team_card {
+		height: fit-content;
+	}
+
+	.flip-box-6 {
+		width: 100% !important;
+		margin: 0px 0px 50px 10px !important;		
+	}
+
+	.last {
+		margin-bottom: 50px !important;
 	}
 }
