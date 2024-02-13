@@ -516,6 +516,7 @@
 		line-height: 50px;
 	}
 
+	
 	.top-banner-slider .flex_caption1 .title2 {
 		font-size: 35px;
 		line-height: 50px;
@@ -1448,8 +1449,6 @@
 	max-width: 1240px;
 	width: 100%;
 }
-
-
 
 @media (min-width: 1200px) and (max-width: 1620px) {
 
@@ -3320,6 +3319,10 @@
 		text-align: center !important;
 	}
 
+	.lady {
+		width: 200px !important;
+	}
+
 	.logo_section a img {
 		width: 100px;
 		margin: 20px 0px 0px -290px !important;
@@ -3592,6 +3595,9 @@
 		margin: 50px 0px 0px -23px !important;
 		background-color: #fff;
 		color: #000;
+	}
+	.lady {
+		width: 200px !important;
 	}
 
 	.logo_section a img {
@@ -3959,8 +3965,10 @@
 	}
 
 	.pro-desc p {
-		max-width: 100%;
-		text-align: justify;
+		
+		text-align: center;
+		font-size: small !important;
+		font-weight: 500;
 	}
 
 	.team_card img {
@@ -3989,9 +3997,7 @@
 	.rep_field .team_card h2 {
 		margin-top: 0px;
 		
-	}
-
-	
+	}	
 
 	.rep_field .team_card {
 		height: fit-content;
