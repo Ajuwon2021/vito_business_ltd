@@ -2505,3 +2505,16 @@ ul.social_icon li a {
 	margin: auto;
 	font-size: 12px;
 }
+
+.sub-menu {
+	background-color: #000033 !important;
+}
+
+.sub-menu li a {
+	color: #ffffff !important;
+}
+
+.sub-menu li a:hover {
+	background-color: red !important;
+	color: #ffffff;
+}
