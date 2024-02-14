@@ -235,7 +235,7 @@ button {
 	height: 100%;
 	background: url('../images/gallery/feature_images/confrence.png') no-repeat center center fixed;
 	background-size: cover;
-	filter: brightness(60%);
+	filter: brightness(80%);
 	color: #ffffff;
 }
 
@@ -259,12 +259,13 @@ button {
 .intro h3:first-child, .intro h3:last-child {
 	font-size: 50px;
 	color: #ffffff !important;
+	margin-top: -50px;
 }
 
 .intro h2 {
 	font-size: 60px;
 	font-weight: bold;
-	margin: 10px 0;
+	margin: 10px 0px;
 	color: #ffffff !important;
 }
 
@@ -1815,11 +1816,15 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .slider_cont_section {
-	padding: 180px 98px 0;
+	padding: 180px 98px 0px;
 }
 
 .slider_cont_section p {
 	margin-bottom: 60px;
+}
+
+.welcome_link .row .button_section {
+	margin-top: 370px !important;
 }
 
 .button_section a {
@@ -1831,6 +1836,7 @@ input[type="radio"] .styled:checked+label::after {
 	line-height: 55px;
 	color: #fff;
 	margin-right: 30px;
+	margin-top: 100px;
 	font-weight: 300;
 	font-size: 16px;
 }
@@ -2141,9 +2147,16 @@ ul.social_icon li a {
 	margin: auto;
 }
 
-.about_body {
-	padding: 20px;
+.lady .about_body {
+	padding: 0px;
 	text-align: center;
+	margin: 0 0 0 120px !important;
+}
+
+.gbenga .about_body {
+	padding: 0px;
+	text-align: center;
+	margin: 30px 0 0 -120px !important;
 }
 
 #readMoreText {
@@ -2398,6 +2411,11 @@ ul.social_icon li a {
 	font-weight: bolder !important;
 }
 
+.lady img {
+	width: 500px;
+	margin: 0px 0 0 100px;
+}
+
 .team_email span {
 	font-size: 20px;
 }
@@ -2409,7 +2427,7 @@ ul.social_icon li a {
 }
 
 .team_card {
-	width: 150px !important;
+	width: 100px !important;
 	margin: auto !important;
 }
 

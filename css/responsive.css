@@ -189,6 +189,60 @@
 	.text-box p {
 		font-size: 16px;
 	}
+
+	.intro h3:first-child,
+	.intro h3:last-child {
+		font-size: 35px;
+		color: #ffffff !important;
+		margin-top: -15px;
+	}
+
+	.intro h2 {
+		font-size: 40px;
+		font-weight: bold;
+		margin: 15px 0px;
+		color: #ffffff !important;
+	}
+
+
+	.welcome_link .row .button_section {
+		margin-top: 0px !important;
+	}
+
+	.bt-1 {
+		margin: 200px 0 0 0px;
+	}
+
+	.bt-2 {
+		margin: -150px 0 0 500px;
+	}
+
+	.button_section a {
+		width: 90px;
+		height: 50px;
+		float: left;
+		background: #000;
+		text-align: center;
+		color: #fff;
+		margin-top: 100px !important;
+		margin-right: 30px;
+		font-weight: 300;
+		font-size: 14px !important;
+	}
+
+	.wel_abt .blog_cont {
+		margin-top: 0px !important;
+	}
+
+	.about_miss p {
+		margin: 0px 0px 0px -50px !important;
+		width: 100%;
+	}
+
+	.intro {
+		margin-top: -50px;
+	}
+
 }
 
 
@@ -516,7 +570,7 @@
 		line-height: 50px;
 	}
 
-	
+
 	.top-banner-slider .flex_caption1 .title2 {
 		font-size: 35px;
 		line-height: 50px;
@@ -851,6 +905,7 @@
 	.single-product-details .share-bar {
 		float: right;
 	}
+
 
 	.price-box-bar .price-box span {
 		font-size: 24px;
@@ -1497,9 +1552,43 @@
 		margin: auto !important;
 	}
 
-	.about_main .about_container .about_img_ctn img, .about_main .about_container .about_img img {
+	.about_main .about_container .about_img_ctn img,
+	.about_main .about_container .about_img img {
 		margin: auto !important;
 	}
+
+	.intro h3:first-child,
+	.intro h3:last-child {
+		font-size: 40px;
+		color: #ffffff !important;
+		margin-top: -25px;
+	}
+
+	.intro h2 {
+		font-size: 50px;
+		font-weight: bolder;
+		margin: 20px 0px;
+		color: #ffffff !important;
+	}
+
+
+	.welcome_link .row .button_section {
+		margin-top: 0px !important;
+	}
+
+	.bt-1 {
+		margin: 250px 0 0 0px;
+	}
+
+	.bt-2 {
+		margin: -150px 0 0 700px;
+	}
+
+	.button_section a {
+		margin-top: 100px !important;
+		margin-right: 30px;
+	}
+
 
 }
 
@@ -1527,7 +1616,8 @@
 		margin: auto !important;
 	}
 
-	.about_main .about_container .about_img_ctn img, .about_main .about_container .about_img img {
+	.about_main .about_container .about_img_ctn img,
+	.about_main .about_container .about_img img {
 		margin: auto !important;
 	}
 }
@@ -1776,7 +1866,8 @@
 		padding-bottom: 0;
 	}
 
-	.blog_cont h3, .about_miss {
+	.blog_cont h3,
+	.about_miss {
 		margin: 80px 0px 0px 0px !important;
 	}
 
@@ -1847,8 +1938,88 @@
 		margin: auto !important;
 	}
 
-	.about_main .about_container .about_img_ctn img, .about_main .about_container .about_img img {
+	.about_main .about_container .about_img_ctn img,
+	.about_main .about_container .about_img img {
 		margin: auto !important;
+	}
+
+	.gbenga img {
+		max-width: 280px !important;
+		margin: 30px 80px !important;
+	}
+
+	.gbenga img {
+		margin-bottom: 20px !important;
+	}
+
+	.gbenga .about_body {
+		width: fit-content;
+		margin: 20px 0 0 90px !important;
+	}
+
+	.lady img {
+		max-width: 330px;
+		margin-left: 60px !important;
+	}
+
+	.lady .about_body {
+		width: fit-content;
+		margin: 0px 0 0 80px !important;
+	}
+
+	.card_body_text {
+		width: 100% !important;
+	}
+
+	.miss_viss_text {
+		width: 100% !important;
+	}
+
+	.miss_viss_text {
+		width: 100% !important;
+	}
+
+	.team_card img {
+		margin: 50px auto;
+	}
+
+	.team_member img {
+		margin: auto;
+	}
+
+	.team_card .about_body h2 {
+		font-size: 18px;
+
+	}
+
+	.team_card .about_body h5 {
+		font-size: 15px;
+
+	}
+
+	.team_email span {
+		font-size: 17px;
+		font-weight: bold;
+		margin: 0 0 0 0px !important;
+		width: 100%;
+		display: block;
+	}
+
+	.team_email .fa {
+		font-size: 20px;
+	}
+
+	.rep_field .team_card img {
+		margin: 50px auto !important;
+	}
+
+	.yink {
+		margin-top: -20px !important;
+	}
+
+	.rep_field .about_body {
+		margin: auto !important;
+		text-align: center;
 	}
 
 }
@@ -1860,6 +2031,17 @@
 	.container {
 		max-width: 750px;
 		width: 100%;
+	}
+
+	.welcome_link .row .button_section a {
+		width: 100px;
+		height: 50px;
+		float: left;
+		text-align: center;
+		line-height: 50px;
+		margin: -30px -10px 0px 35px !important;
+		font-weight: 300;
+		font-size: 18px !important;
 	}
 
 	.logo_section::after {
@@ -2100,8 +2282,8 @@
 		line-height: 30px;
 	}
 
-	.blog_cont {
-		padding-top: 0;
+	.wel_abt .blog_cont {
+		margin: 0px 0px 0px 0px !important;
 	}
 
 	p {
@@ -2147,8 +2329,11 @@
 	.main-about h2 {
 		text-align: center !important;
 	}
-		
-	.aboutheading h3, .Marketingheading h3, .Blogheading h3, .contactheading h3 {
+
+	.aboutheading h3,
+	.Marketingheading h3,
+	.Blogheading h3,
+	.contactheading h3 {
 		font-size: 45px !important;
 	}
 
@@ -2163,8 +2348,124 @@
 	.map_sect {
 		margin-bottom: -10px;
 	}
-	
 
+	.intro h3:first-child,
+	.intro h3:last-child {
+		font-size: 25px;
+		color: #ffffff !important;
+		margin-top: -25px;
+	}
+
+	.intro h2 {
+		font-size: 30px;
+		font-weight: bold;
+		margin: 10px 0px;
+		color: #ffffff !important;
+	}
+
+
+	.welcome_link .row .button_section {
+		margin-top: 150px !important;
+	}
+
+	.bt-1 {
+		margin: 200px 0 0 0px;
+	}
+
+	.bt-2 {
+		margin: -170px 0 0 340px;
+	}
+
+	.button_section a {
+		width: 90px;
+		height: 50px;
+		float: left;
+		background: #000;
+		text-align: center;
+		color: #fff;
+		margin-top: 100px !important;
+		margin-right: 30px;
+		font-weight: 300;
+		font-size: 14px !important;
+	}
+
+	.gbenga img {
+		max-width: 280px !important;
+		margin: 30px 25px !important;
+	}
+
+	.gbenga img {
+		margin-bottom: 20px !important;
+	}
+
+	.gbenga .about_body {
+		width: fit-content;
+		margin: 20px 0 0 30px !important;
+	}
+
+	.lady img {
+		margin-bottom: 0px;
+	}
+
+	.lady .about_body {
+		width: fit-content;
+		margin: 0px 0 0 30px !important;
+	}
+
+	.card_body_text {
+		width: 100% !important;
+	}
+
+	.miss_viss_text {
+		width: 100% !important;
+	}
+
+	.miss_viss_text {
+		width: 100% !important;
+	}
+
+	.team_card img {
+		margin: 50px auto;
+	}
+
+	.team_member img {
+		margin: auto;
+	}
+
+	.team_card .about_body h2 {
+		font-size: 18px;
+
+	}
+
+	.team_card .about_body h5 {
+		font-size: 15px;
+
+	}
+
+	.team_email span {
+		font-size: 17px;
+		font-weight: bold;
+		margin: 0 0 0 0px !important;
+		width: 100%;
+		display: block;
+	}
+
+	.team_email .fa {
+		font-size: 20px;
+	}
+
+	.rep_field .team_card img {
+		margin: 50px auto !important;
+	}
+
+	.yink {
+		margin-top: -20px !important;
+	}
+
+	.rep_field .about_body {
+		margin: auto !important;
+		text-align: center;
+	}
 }
 
 
@@ -2638,149 +2939,150 @@
 	}
 
 	header {
-			height: 80px !important;
-		}
-	
-		.menu-area {
-			margin-top: -50px;
-		}
-	
-		.mean-container a.meanmenu-reveal {
-			margin: -25px 0 0 0;
-		}
-	
-		.wel-sec {
-			margin: 0;
-			padding: 0;
-			height: 50vh;
-			overflow: hidden;
-		}
-	
-		.over_lay_col {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			margin: auto;
-			height: 100%;
-			background: rgba(0, 0, 0, 0.5);
-		}
-	
-		.intro {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			text-align: center;
-		}
-	
-		.intro h3:first-child,
-		.intro h3:last-child {
-			font-size: 25px;
-			color: #ffffff !important;
-		}
-	
-		.intro h2 {
-			font-size: 30px;
-			font-weight: bold;
-			margin: 10px 0;
-			color: #ffffff !important;
-		}
-	
-		.about_image img {
-			margin-top: 20px;
-		}
-	
-		.label_card {
-			margin-top: -60px;
-	
-		}
-	
-		.services-inner-box {
-			margin-bottom: -20px;
-			margin-left: auto !important;
-		}
-	
-		.box-ser i {
-			margin: auto !important;
-		}
+		height: 80px !important;
+	}
 
-		.ser-mar .services-inner-box {
-			margin: auto !important;
-			
-		}
-	
-		.serv-box {
-			margin-top: -10px !important;
-		}
-	
-		.proj {
-			margin-top: 50px;
-		}
-	
-		.pro-desc p {
-			max-width: 100%;
-			text-align: justify;
-		}
-	
-		.team_card img {
-			margin: 50px auto;
-		}
-	
-		.team_card .about_body {
-			padding: 0;
-			margin: auto;
-		}
-	
-		.team_card .about_body h2 {
-			font-size: small;
-			margin-top: -40px;
-		}
-	
-		.team_email span,
-		.team_email i {
-			width: 100%;
-			font-size: 8px;
-		}
-	
-		.rep_field .team_card img {
-			margin: 20px auto !important;
-		}
-	
-		.rep_field .team_card h2 {
-			margin-top: 0px;
-	
-		}
-	
-		.rep_field .team_card {
-			height: fit-content;
-		}
-	
-		.flip-box-6 img {
-			width: 50% !important;
-		}
+	.menu-area {
+		margin-top: -50px;
+	}
 
-		.flip-box {
-			margin: 20px 10px;
-		}
-	
-		.last {
-			margin-bottom: 50px !important;
-		}
+	.mean-container a.meanmenu-reveal {
+		margin: -25px 0 0 0;
+	}
+
+	.wel-sec {
+		margin: 0;
+		padding: 0;
+		height: 50vh;
+		overflow: hidden;
+	}
+
+	.over_lay_col {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		margin: auto;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.5);
+	}
+
+	.intro {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+	}
+
+	.intro h3:first-child,
+	.intro h3:last-child {
+		font-size: 25px;
+		color: #ffffff !important;
+	}
+
+	.intro h2 {
+		font-size: 30px;
+		font-weight: bold;
+		margin: 10px 0;
+		color: #ffffff !important;
+	}
+
+	.about_image img {
+		margin-top: 20px;
+	}
+
+	.label_card {
+		margin-top: -60px;
+
+	}
+
+	.services-inner-box {
+		margin-bottom: -20px;
+		margin-left: auto !important;
+	}
+
+	.box-ser i {
+		margin: auto !important;
+	}
+
+	.ser-mar .services-inner-box {
+		margin: auto !important;
+
+	}
+
+	.serv-box {
+		margin-top: -10px !important;
+	}
+
+	.proj {
+		margin-top: 50px;
+	}
+
+	.pro-desc p {
+		max-width: 100%;
+		text-align: justify;
+	}
+
+	.team_card img {
+		margin: 50px auto;
+	}
+
+	.team_card .about_body {
+		padding: 0;
+		margin: auto;
+	}
+
+	.team_card .about_body h2 {
+		font-size: small;
+		margin-top: -40px;
+	}
+
+	.team_email span,
+	.team_email i {
+		width: 100%;
+		font-size: 8px;
+	}
+
+	.rep_field .team_card img {
+		margin: 20px auto !important;
+	}
+
+	.rep_field .team_card h2 {
+		margin-top: 0px;
+
+	}
+
+	.rep_field .team_card {
+		height: fit-content;
+	}
+
+	.flip-box-6 img {
+		width: 50% !important;
+	}
+
+	.flip-box {
+		margin: 20px 10px;
+	}
+
+	.last {
+		margin-bottom: 50px !important;
+	}
 
 	.flip-box-front {
 		width: 25% !important;
 	}
 
 	.sub-menu {
-	background-color: #000033 !important;
+		background-color: #000033 !important;
 	}
 
 	.sub-menu li a {
-	color: #3B3B3B !important;
-	margin-left: 50px !important;
+		color: #3B3B3B !important;
+		margin-left: 50px !important;
 	}
-		
+
+
 
 }
 
@@ -3318,19 +3620,19 @@
 	}
 
 	.sub-menu {
-	background-color: #000033 !important;
+		background-color: #000033 !important;
 	}
 
 	.sub-menu li a {
-	color: #3B3B3B !important;
-	margin-left: 50px !important;
+		color: #3B3B3B !important;
+		margin-left: 50px !important;
 	}
 }
 
 @media only screen and (max-width: 425px) {
 	.logo_section::after {
 		display: none;
-	}	
+	}
 
 	.main-about h2 {
 		text-align: center !important;
@@ -3351,7 +3653,8 @@
 	}
 
 
-	#slider_main a.carousel-control-prev, #slider_main a.carousel-control-next {
+	#slider_main a.carousel-control-prev,
+	#slider_main a.carousel-control-next {
 		margin-top: -45px;
 		height: 40px;
 	}
@@ -3394,7 +3697,8 @@
 		display: none;
 	}
 
-	.sect_title .col-md-12 .header_ctn, .sect_title .proj_ctn .header_ctn {
+	.sect_title .col-md-12 .header_ctn,
+	.sect_title .proj_ctn .header_ctn {
 		text-align: center !important;
 		margin: auto;
 		padding: 20px 0px 20px 10px;
@@ -3408,7 +3712,8 @@
 		margin-top: 40px;
 	}
 
-	.about_main, .proj {
+	.about_main,
+	.proj {
 		padding: 20px 0px 20px 0px;
 	}
 
@@ -3437,7 +3742,7 @@
 		width: auto;
 		height: 400px;
 	}
-	
+
 	.ser_vd video {
 		width: 400px;
 		height: 300px !important;
@@ -3463,7 +3768,10 @@
 		margin-bottom: -10px !important;
 	}
 
-	.aboutheading h3, .Marketingheading h3, .Blogheading h3, .contactheading h3 {
+	.aboutheading h3,
+	.Marketingheading h3,
+	.Blogheading h3,
+	.contactheading h3 {
 		font-size: 40px !important;
 	}
 
@@ -3474,146 +3782,248 @@
 	}
 
 	header {
-			height: 80px !important;
-		}
-	
-		.menu-area {
-			margin-top: -50px;
-		}
-	
-		.mean-container a.meanmenu-reveal {
-			margin: -25px 0 0 0;
-		}
-	
-		.wel-sec {
-			margin: 0;
-			padding: 0;
-			height: 50vh;
-			overflow: hidden;
-		}
-	
-		.over_lay_col {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			margin: auto;
-			height: 100%;
-			background: rgba(0, 0, 0, 0.5);
-		}
-	
-		.intro {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			text-align: center;
-		}
-	
-		.intro h3:first-child,
-		.intro h3:last-child {
-			font-size: 25px;
-			color: #ffffff !important;
-		}
-	
-		.intro h2 {
-			font-size: 30px;
-			font-weight: bold;
-			margin: 10px 0;
-			color: #ffffff !important;
-		}
-	
-		.about_image img {
-			margin-top: 20px;
-		}
-	
-		.label_card {
-			margin-top: -60px;
-	
-		}
-	
-		.services-inner-box {
-			margin-bottom: -20px;
-			margin-left: auto !important;
-		}
-	
-		.box-ser i {
-			margin: auto !important;
-		}
+		height: 80px !important;
+	}
 
-		.ser-mar .services-inner-box {
-			margin: auto !important;
-			
-		}
-	
-		.serv-box {
-			margin-top: -10px !important;
-		}
-	
-		.proj {
-			margin-top: 50px;
-		}
-	
-		.pro-desc p {
-			max-width: 100%;
-			text-align: justify;
-		}
-	
-		.team_card img {
-			margin: 50px auto;
-		}
-	
-		.team_card .about_body {
-			padding: 0;
-			margin: auto;
-		}
-	
-		.team_card .about_body h2 {
-			font-size: small;
-			margin-top: -40px;
-		}
-	
-		.team_email span,
-		.team_email i {
-			width: 100%;
-			font-size: 8px;
-		}
-	
-		.rep_field .team_card img {
-			margin: 20px auto !important;
-		}
-	
-		.rep_field .team_card h2 {
-			margin-top: 0px;
-	
-		}
-	
-	
-		.rep_field .team_card {
-			height: fit-content;
-		}
-	
-		.flip-box-6 {
-			width: 100% !important;
-			margin: 0px 0px 50px 0px !important;
-		}
+	.menu-area {
+		margin-top: -50px;
+	}
 
-		.flip-box {
-			margin: 20px auto ;
-		}
-	
-		.last {
-			margin-bottom: 50px !important;
-		}
+	.mean-container a.meanmenu-reveal {
+		margin: -25px 0 0 0;
+	}
 
-		.sub-menu {
-	background-color: #000033 !important;
+	.wel-sec {
+		margin: 0;
+		padding: 0;
+		height: 50vh;
+		overflow: hidden;
+	}
+
+	.over_lay_col {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		margin: auto;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.5);
+	}
+
+	.intro {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+	}
+
+	.intro h3:first-child,
+	.intro h3:last-child {
+		font-size: 25px;
+		color: #ffffff !important;
+	}
+
+	.intro h2 {
+		font-size: 30px;
+		font-weight: bold;
+		margin: 10px 0;
+		color: #ffffff !important;
+	}
+
+	.about_image img {
+		margin-top: 20px;
+	}
+
+	.label_card {
+		margin-top: -60px;
+
+	}
+
+	.services-inner-box {
+		margin-bottom: -20px;
+		margin-left: auto !important;
+	}
+
+	.box-ser i {
+		margin: auto !important;
+	}
+
+	.ser-mar .services-inner-box {
+		margin: auto !important;
+
+	}
+
+	.serv-box {
+		margin-top: -10px !important;
+	}
+
+	.proj {
+		margin-top: 50px;
+	}
+
+	.team_card img {
+		margin: 50px auto;
+	}
+
+	.team_card .about_body {
+		padding: 0;
+		margin: auto;
+	}
+
+	.team_card .about_body h2 {
+		font-size: small;
+		margin-top: -40px;
+	}
+
+	.team_email span,
+	.team_email i {
+		width: 100%;
+		font-size: 8px;
+	}
+
+	.rep_field .team_card img {
+		margin: 20px auto !important;
+	}
+
+	.rep_field .team_card h2 {
+		margin-top: 0px;
+
+	}
+
+
+	.rep_field .team_card {
+		height: fit-content;
+	}
+
+	.flip-box-6 {
+		width: 100% !important;
+		margin: 0px 0px 50px 0px !important;
+	}
+
+	.flip-box {
+		margin: 20px auto;
+	}
+
+	.last {
+		margin-bottom: 50px !important;
+	}
+
+	.sub-menu {
+		background-color: #000033 !important;
 	}
 
 	.sub-menu li a {
-	color: #3B3B3B !important;
-	margin-left: 50px !important;
+		color: #3B3B3B !important;
+		margin-left: 50px !important;
 	}
+
+	.intro h3:first-child,
+	.intro h3:last-child {
+		font-size: 25px;
+		color: #ffffff !important;
+		margin-top: -25px;
+	}
+
+	.intro h2 {
+		font-size: 30px;
+		font-weight: bold;
+		margin: 10px 0px;
+		color: #ffffff !important;
+	}
+
+
+	.welcome_link .row .button_section {
+		margin-top: 0px !important;
+	}
+
+	.bt-1 {
+		margin: 120px 0 0 -60px;
+	}
+
+	.bt-2 {
+		margin: -150px 0 0 100px;
+	}
+
+	.button_section a {
+		width: 90px;
+		height: 50px;
+		float: left;
+		background: #000;
+		text-align: center;
+		color: #fff;
+		margin-top: 100px !important;
+		margin-right: 30px;
+		font-weight: 300;
+		font-size: 14px !important;
+	}
+
+	.label_card {
+		margin-top: 1px;
+	}
+
+	.gbenga img {
+		max-width: 120px !important;
+		margin: 10px auto !important;
+	}
+
+	.lady img {
+		max-width: 140px !important;
+		margin: auto 40px !important;
+	}
+
+	.gbenga img {
+		margin-bottom: 40px !important;
+	}
+
+	.gbenga .about_body {
+		width: fit-content;
+		margin: 20px 0 0 -10px !important;
+	}
+
+	.lady img {
+		margin-bottom: 40px;
+	}
+
+	.lady .about_body {
+		width: fit-content;
+		margin: 40px 0 0 30px !important;
+	}
+
+	.card_body_text {
+		width: 100% !important;
+	}
+
+	.miss_viss_text {
+		width: 100% !important;
+	}
+
+	.miss_viss_text {
+		width: 100% !important;
+	}
+
+	.team_card .about_body h2 {
+		font-size: 10px;
+
+	}
+
+	.team_card .about_body h5 {
+		font-size: 10px;
+
+	}
+
+	.team_email span {
+		font-size: 9px;
+		font-weight: bold;
+		margin: 0 0 0 0px !important;
+		width: 100%;
+		display: block;
+	}
+
+	.team_email .fa {
+		font-size: 15px;
+	}
+
 }
 
 @media only screen and (max-width: 375px) {
@@ -3622,8 +4032,15 @@
 		background-color: #fff;
 		color: #000;
 	}
+
 	.lady {
 		width: 200px !important;
+	}
+
+	.pro-desc p {
+		text-align: left;
+		font-size: small !important;
+		font-weight: 500;
 	}
 
 	.logo_section a img {
@@ -3631,7 +4048,10 @@
 		margin: 20px 0px 0px -250px !important;
 	}
 
-	.aboutheading h3, .Marketingheading h3, .Blogheading h3, .contactheading h3 {
+	.aboutheading h3,
+	.Marketingheading h3,
+	.Blogheading h3,
+	.contactheading h3 {
 		font-size: 35px !important;
 	}
 
@@ -3665,7 +4085,7 @@
 	.tab_cont {
 		margin-top: -50px !important;
 	}
-	
+
 	.map_sect {
 		margin-bottom: -10px;
 	}
@@ -3681,7 +4101,7 @@
 		padding: 5px;
 	}
 
-	.serv{
+	.serv {
 		margin: -200px 0px -50px 0px !important;
 	}
 
@@ -3703,144 +4123,260 @@
 		text-align: center;
 	}
 
-		header {
-			height: 80px !important;
-		}
-	
-		.menu-area {
-			margin-top: -50px;
-		}
-	
-		.mean-container a.meanmenu-reveal {
-			margin: -25px 0 0 0;
-		}
-	
-		.wel-sec {
-			margin: 0;
-			padding: 0;
-			height: 50vh;
-			overflow: hidden;
-		}
-	
-		.over_lay_col {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			margin: auto;
-			height: 100%;
-			background: rgba(0, 0, 0, 0.5);
-		}
-	
-		.intro {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			text-align: center;
-		}
-	
-		.intro h3:first-child,
-		.intro h3:last-child {
-			font-size: 25px;
-			color: #ffffff !important;
-		}
-	
-		.intro h2 {
-			font-size: 30px;
-			font-weight: bold;
-			margin: 10px 0;
-			color: #ffffff !important;
-		}
-	
-		.about_image img {
-			margin-top: 20px;
-		}
-	
-		.label_card {
-			margin-top: -60px;
-	
-		}
-	
-		.services-inner-box {
-			margin-bottom: -20px;
-			margin-left: auto !important;
-		}
-	
-		.box-ser i {
-			margin: auto !important;
-		}
+	header {
+		height: 80px !important;
+	}
 
-		.ser-mar .services-inner-box {
-			margin: auto !important;
-			
-		}
-	
-		.serv-box {
-			margin-top: -10px !important;
-		}
-	
-		.proj {
-			margin-top: 50px;
-		}
-	
-		.pro-desc p {
-			max-width: 100%;
-			text-align: justify;
-		}
-	
-		.team_card img {
-			margin: 50px auto;
-		}
-	
-		.team_card .about_body {
-			padding: 0;
-			margin: auto;
-		}
-	
-		.team_card .about_body h2 {
-			font-size: small;
-			margin-top: -40px;
-		}
-	
-		.team_email span,
-		.team_email i {
-			width: 100%;
-			font-size: 8px;
-		}
-	
-		.rep_field .team_card img {
-			margin: 20px auto !important;
-		}
-	
-		.rep_field .team_card h2 {
-			margin-top: 0px;
-	
-		}
-	
-	
-		.rep_field .team_card {
-			height: fit-content;
-		}
-	
-		.flip-box-6 {
-			width: 100% !important;
-			margin: 0px 0px 50px 0px !important;
-		}
-	
-		.last {
-			margin-bottom: 50px !important;
-		}
+	.menu-area {
+		margin-top: -50px;
+	}
 
-		.sub-menu {
+	.mean-container a.meanmenu-reveal {
+		margin: -25px 0 0 0;
+	}
+
+	.wel-sec {
+		margin: 0;
+		padding: 0;
+		height: 50vh;
+		overflow: hidden;
+	}
+
+	.over_lay_col {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		margin: auto;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.5);
+	}
+
+	.intro {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+	}
+
+	.intro h3:first-child,
+	.intro h3:last-child {
+		font-size: 25px;
+		color: #ffffff !important;
+	}
+
+	.intro h2 {
+		font-size: 30px;
+		font-weight: bold;
+		margin: 10px 0;
+		color: #ffffff !important;
+	}
+
+	.about_image img {
+		margin-top: 20px;
+	}
+
+	.label_card {
+		margin-top: -60px;
+
+	}
+
+	.services-inner-box {
+		margin-bottom: -20px;
+		margin-left: auto !important;
+	}
+
+	.box-ser i {
+		margin: auto !important;
+	}
+
+	.ser-mar .services-inner-box {
+		margin: auto !important;
+
+	}
+
+	.serv-box {
+		margin-top: -10px !important;
+	}
+
+	.proj {
+		margin-top: 50px;
+	}
+
+	.team_card img {
+		margin: 50px auto;
+	}
+
+	.team_card .about_body {
+		padding: 0;
+		margin: auto;
+	}
+
+	.team_card .about_body h2 {
+		font-size: small;
+		margin-top: -40px;
+	}
+
+	.team_email span,
+	.team_email i {
+		width: 100%;
+		font-size: 8px;
+	}
+
+	.rep_field .team_card img {
+		margin: 20px auto !important;
+	}
+
+	.rep_field .team_card h2 {
+		margin-top: 0px;
+
+	}
+
+
+	.rep_field .team_card {
+		height: fit-content;
+	}
+
+	.flip-box-6 {
+		width: 100% !important;
+		margin: 0px 0px 50px 0px !important;
+	}
+
+	.last {
+		margin-bottom: 50px !important;
+	}
+
+	.sub-menu {
 		background-color: #000033 !important;
-		}
+	}
 
 	.sub-menu li a {
-	color: #3B3B3B !important;
-	margin-left: 50px !important;
+		color: #3B3B3B !important;
+		margin-left: 50px !important;
+	}
+
+	.intro h3:first-child,
+	.intro h3:last-child {
+		font-size: 25px;
+		color: #ffffff !important;
+		margin-top: -25px;
+	}
+
+	.intro h2 {
+		font-size: 30px;
+		font-weight: bold;
+		margin: 10px 0px;
+		color: #ffffff !important;
+	}
+
+
+	.welcome_link .row .button_section {
+		margin-top: 0px !important;
+	}
+
+	.bt-1 {
+		margin: 120px 0 0 -60px;
+	}
+
+	.bt-2 {
+		margin: -150px 0 0 100px;
+	}
+
+	.button_section a {
+		width: 90px;
+		height: 50px;
+		float: left;
+		background: #000;
+		text-align: center;
+		color: #fff;
+		margin-top: 100px !important;
+		margin-right: 30px;
+		font-weight: 300;
+		font-size: 14px !important;
+	}
+
+	.label_card {
+		margin-top: 1px;
+	}
+
+	.gbenga img {
+		max-width: 150px !important;
+		margin: 40px 0 0 -40px !important;
+	}
+
+	.gbenga img {
+		margin-bottom: 40px !important;
+	}
+
+	.gbenga .about_body {
+		width: fit-content;
+		margin: 20px 0 0 -75px !important;
+	}
+
+	.lady img {
+		margin-bottom: 40px;
+	}
+
+	.lady .about_body {
+		width: fit-content;
+		margin: 40px 0 0 -38px !important;
+	}
+
+	.card_body_text {
+		width: 100% !important;
+	}
+
+	.miss_viss_text {
+		width: 100% !important;
+	}
+
+	.miss_viss_text {
+		width: 100% !important;
+	}
+
+	.team_card img {
+		margin: 50px auto;
+	}
+
+	.team_member img {
+		margin: auto;
+	}
+
+	.team_card .about_body h2 {
+		font-size: 13px;
+
+	}
+
+	.team_card .about_body h5 {
+		font-size: 12px;
+
+	}
+
+	.team_email span {
+		font-size: 15px;
+		font-weight: bold;
+		margin: 0 0 0 0px !important;
+		width: 100%;
+		display: block;
+	}
+
+	.team_email .fa {
+		font-size: 18px;
+	}
+
+	.lady img {
+		max-width: 180px !important;
+		margin-left: auto !important;
+		margin-bottom: 20px !important;
+	}
+
+	.team_member .about_body {
+		text-align: center;
 	}
 }
+
+
 
 @media only screen and (max-width: 320px) {
 	header {
@@ -3856,41 +4392,42 @@
 	}
 
 	.wel-sec {
-	margin: 0;
-	padding: 0;
-	height: 50vh;
-	overflow: hidden;	
-}
+		margin: 0;
+		padding: 0;
+		height: 50vh;
+		overflow: hidden;
+	}
 
-.over_lay_col {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	margin: auto;
-	height: 100%;
-	background: rgba(0, 0, 0, 0.5);
-}
+	.over_lay_col {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		margin: auto;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.5);
+	}
 
-.intro {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-}
+	.intro {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+	}
 
-.intro h3:first-child, .intro h3:last-child {
-	font-size: 25px;
-	color: #ffffff !important;
-}
+	.intro h3:first-child,
+	.intro h3:last-child {
+		font-size: 25px;
+		color: #ffffff !important;
+	}
 
-.intro h2 {
-	font-size: 30px;
-	font-weight: bold;
-	margin: 10px 0;
-	color: #ffffff !important;
-}
+	.intro h2 {
+		font-size: 30px;
+		font-weight: bold;
+		margin: 10px 0;
+		color: #ffffff !important;
+	}
 
 	.logo_section a img {
 		width: 80px;
@@ -3944,8 +4481,11 @@
 	.main-about h2 {
 		text-align: center !important;
 	}
-		
-	.aboutheading h3, .Marketingheading h3, .Blogheading h3, .contactheading h3 {
+
+	.aboutheading h3,
+	.Marketingheading h3,
+	.Blogheading h3,
+	.contactheading h3 {
 		font-size: 35px !important;
 	}
 
@@ -3964,12 +4504,14 @@
 		margin: -40px 0px 10px -25px !important;
 	}
 
-	.tab_cont, .map_sect {
+	.tab_cont,
+	.map_sect {
 		margin-top: -50px !important;
 		margin-bottom: 50px;
 	}
-	
-	.proj, .team_card {
+
+	.proj,
+	.team_card {
 		margin-bottom: 50px;
 	}
 
@@ -3980,7 +4522,7 @@
 	}
 
 	.box-ser {
-		margin: auto !important;	
+		margin: auto !important;
 	}
 
 	.services-inner-box {
@@ -4000,29 +4542,34 @@
 	}
 
 	.pro-desc p {
-		
-		text-align: center;
+		text-align: left;
 		font-size: small !important;
-		font-weight: 500;
+		font-weight: 600;
 	}
 
 	.team_card img {
-    	margin: 50px auto;
+		margin: 50px auto;
 	}
 
-	.team_card .about_body {
-		padding: 0;
+	.team_member img {
 		margin: auto;
 	}
 
 	.team_card .about_body h2 {
-		font-size: small;
-		margin-top: -40px;
+		font-size: 13px;
+
 	}
 
-	.team_email span, .team_email i {
+	.team_card .about_body h5 {
+		font-size: 12px;
+
+	}
+
+	.team_email span {
+		font-size: 14px;
+		margin: 0 0 0 0px !important;
 		width: 100%;
-		font-size: 8px;
+		display: block;
 	}
 
 	.rep_field .team_card img {
@@ -4031,8 +4578,8 @@
 
 	.rep_field .team_card h2 {
 		margin-top: 0px;
-		
-	}	
+
+	}
 
 	.rep_field .team_card {
 		height: fit-content;
@@ -4040,7 +4587,7 @@
 
 	.flip-box-6 {
 		width: 100% !important;
-		margin: 0px 0px 50px 10px !important;		
+		margin: 0px 0px 50px 10px !important;
 	}
 
 	.last {
@@ -4048,11 +4595,114 @@
 	}
 
 	.sub-menu {
-	background-color: #000033 !important;
+		background-color: #000033 !important;
 	}
 
 	.sub-menu li a {
-	color: #3B3B3B !important;
-	margin-left: 50px !important;
+		color: #3B3B3B !important;
+		margin-left: 50px !important;
 	}
+
+	.intro h3:first-child,
+	.intro h3:last-child {
+		font-size: 25px;
+		color: #ffffff !important;
+		margin-top: -25px;
+	}
+
+	.intro h2 {
+		font-size: 30px;
+		font-weight: bold;
+		margin: 10px 0px;
+		color: #ffffff !important;
+	}
+
+
+	.welcome_link .row .button_section {
+		margin-top: 0px !important;
+	}
+
+	.bt-1 {
+		margin: 120px 0 0 -60px;
+	}
+
+	.bt-2 {
+		margin: -150px 0 0 100px;
+	}
+
+	.button_section a {
+		width: 90px;
+		height: 50px;
+		float: left;
+		background: #000;
+		text-align: center;
+		color: #fff;
+		margin-top: 100px !important;
+		margin-right: 30px;
+		font-weight: 300;
+		font-size: 14px !important;
+	}
+
+	.label_card {
+		margin-top: 1px;
+	}
+
+	.about_miss {
+		margin: 0 0 0 -3px !important;
+	}
+
+	/*.gbenga .team_img img {
+	max-width: 300px !important;
+	height: 170px !important;
+}*/
+
+
+
+	.gbenga img {
+		max-width: 150px !important;
+		margin: 40px 0 0 -40px !important;
+	}
+
+	.gbenga img {
+		margin-bottom: 40px !important;
+	}
+
+	.gbenga .about_body {
+		width: fit-content;
+		margin: 20px 0 0 -70px !important;
+	}
+
+	.lady img {
+		max-width: 180px !important;
+		margin-left: auto !important;
+		margin-bottom: 20px !important;
+	}
+
+	.lady .about_body {
+		width: fit-content;
+		margin: 20px 0 0 -27px !important;
+
+	}
+
+	.card_body_text {
+		width: 100% !important;
+	}
+
+	.miss_viss_text {
+		width: 100% !important;
+	}
+
+	.miss_viss_text {
+		width: 100% !important;
+	}
+
+	.team_email .fa {
+		font-size: 18px;
+	}
+
+	.team_member .about_body {
+		text-align: center;
+	}
+
+
 }
