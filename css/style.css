@@ -1824,7 +1824,15 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .welcome_link .row .button_section {
-	margin-top: 370px !important;
+	margin-top: 800px !important;
+}
+
+.bt-1 {
+	margin: 0px 0 0 0px !important;
+}
+
+.bt-2 {
+	margin: -865px 0 0 1300px !important;
 }
 
 .button_section a {

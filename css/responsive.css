@@ -1507,6 +1507,18 @@
 
 @media (min-width: 1200px) and (max-width: 1620px) {
 
+	.welcome_link .row .button_section {
+		margin-top: 20px !important;
+	}
+
+	.bt-1 {
+		margin: 450px 0 0 0px !important;
+	}
+
+	.bt-2 {
+		margin: -155px 0 0 750px !important;
+	}
+
 	.main-menu ul>li a {
 		padding: 23px 10px 23px 10px;
 		font-size: 15px;
@@ -1629,6 +1641,18 @@
 	.container {
 		max-width: 980px;
 		width: 100%;
+	}
+
+	.welcome_link .row .button_section {
+		margin-top: 20px !important;
+	}
+
+	.bt-1 {
+		margin: 300px 0 0 0px !important;
+	}
+
+	.bt-2 {
+		margin: -170px 0 0 550px !important;
 	}
 
 	/**-- header --**/
@@ -2050,6 +2074,18 @@
 
 	.rep_field img {
 		margin: auto !important;
+	}
+
+	.welcome_link .row .button_section {
+		margin-top: 50px !important;
+	}
+
+	.bt-1 {
+		margin: 350px 0 0 0px !important;
+	}
+
+	.bt-2 {
+		margin: -170px 0 0 400px !important;
 	}
 
 	/**-- header --**/
@@ -3638,6 +3674,18 @@
 		text-align: center !important;
 	}
 
+	.welcome_link .row .button_section {
+		margin-top: 40px !important;
+	}
+
+	.bt-1 {
+		margin: 200px 0 0 0px !important;
+	}
+
+	.bt-2 {
+		margin: -150px 0 0 120px !important;
+	}
+
 	.lady {
 		width: 200px !important;
 	}
@@ -4272,15 +4320,15 @@
 
 
 	.welcome_link .row .button_section {
-		margin-top: 0px !important;
+		margin-top: 20px !important;
 	}
 
 	.bt-1 {
-		margin: 120px 0 0 -60px;
+		margin: 170px 0 0 0px !important;
 	}
 
 	.bt-2 {
-		margin: -150px 0 0 100px;
+		margin: -170px 0 0 120px !important;
 	}
 
 	.button_section a {
@@ -4619,15 +4667,15 @@
 
 
 	.welcome_link .row .button_section {
-		margin-top: 0px !important;
+		margin-top: 20px !important;
 	}
 
 	.bt-1 {
-		margin: 120px 0 0 -60px;
+		margin: 170px 0 0 0px !important;
 	}
 
 	.bt-2 {
-		margin: -150px 0 0 100px;
+		margin: -170px 0 0 120px !important;
 	}
 
 	.button_section a {
