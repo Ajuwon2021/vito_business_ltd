@@ -3670,6 +3670,11 @@
 		display: none;
 	}
 
+	
+	.staff2 {
+		width: 200px !important;
+	}
+
 	.main-about h2 {
 		text-align: center !important;
 	}
@@ -4081,6 +4086,10 @@
 		color: #000;
 	}
 
+		.staff2 {
+			width: 150px !important;
+		}
+
 	.lady {
 		width: 200px !important;
 	}
@@ -4383,12 +4392,8 @@
 		width: 100% !important;
 	}
 
-	.team_card img {
-		margin: 50px auto;
-	}
-
-	.team_member img {
-		margin: auto;
+	.staff_img img {
+		width: 600px !important;
 	}
 
 	.team_card .about_body h2 {
@@ -4402,7 +4407,7 @@
 	}
 
 	.team_email span {
-		font-size: 15px;
+		font-size: 11.5px;
 		font-weight: bold;
 		margin: 0 0 0 0px !important;
 		width: 100%;
@@ -4528,6 +4533,18 @@
 
 	.main-about h2 {
 		text-align: center !important;
+		font-size: 17px;
+		font-weight: bolder;
+	}
+
+		.main-about h5 {
+		text-align: center !important;
+		font-weight: 500;
+		font-size: 14px;
+	}
+
+	.staff2 {
+		width: 130px !important;
 	}
 
 	.aboutheading h3,
@@ -4614,7 +4631,7 @@
 	}
 
 	.team_email span {
-		font-size: 14px;
+		font-size: 9px;
 		margin: 0 0 0 0px !important;
 		width: 100%;
 		display: block;
