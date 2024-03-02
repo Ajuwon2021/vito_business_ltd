@@ -5,13 +5,13 @@ var pageIndicator = document.getElementById( 'page' );
 var galleryDots = document.getElementById( 'gallery-dots' );
 
 var images = [];
-var totalImages = 70; // Set the total number of images
+var totalImages = 97; // Set the total number of images
 
-for ( var i = 1; i <= totalImages; i++ )
+for ( var i = 0; i <= totalImages; i++ )
 {
     images.push( {
         title: "Image " + i,
-        source: "images/gallery/gal/gallery" + i + ".png" // Dynamic image path
+        source: "images/gallery/gal/gal" + i + ".png" // Dynamic image path
     } );
 }
 
