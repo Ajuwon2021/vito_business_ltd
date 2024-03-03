@@ -1822,18 +1822,14 @@ input[type="radio"] .styled:checked+label::after {
 .slider_cont_section p {
 	margin-bottom: 60px;
 }
-
-.welcome_link .row .button_section {
-	margin-top: 800px !important;
-}
-
+/*
 .bt-1 {
 	margin: 0px 0 0 0px !important;
 }
 
 .bt-2 {
 	margin: -865px 0 0 1300px !important;
-}
+}*/
 
 .button_section a {
 	width: 180px;
@@ -1844,7 +1840,7 @@ input[type="radio"] .styled:checked+label::after {
 	line-height: 55px;
 	color: #fff;
 	margin-right: 30px;
-	margin-top: 100px;
+	margin-top: 1000px  !important;
 	font-weight: 300;
 	font-size: 16px;
 }
