@@ -1585,11 +1585,11 @@
 
 
 	.welcome_link .row .button_section {
-		margin-top: 250px !important;
+		margin-top: 270px !important;
 	}
 
 	.welcome_link .row .btnw2 .button_section {
-		margin: 250px 0 0 70px !important;
+		margin: 270px 0 0 70px !important;
 	}
 
 	.button_section a {
@@ -1640,11 +1640,11 @@
 	}
 
 	.welcome_link .row .button_section {
-		margin-top: 170px !important;
+		margin-top: 220px !important;
 	}
 
 	.welcome_link .row .btnw2 .button_section {
-		margin: 250px 0 0 70px !important;
+		margin: 220px 0 0 70px !important;
 	}
 
 	.button_section a {
@@ -2061,7 +2061,7 @@
 		float: left;
 		text-align: center;
 		line-height: 50px;
-		margin: 150px -10px 0px 40px !important;
+		margin: 170px -10px 0px 40px !important;
 		font-weight: 300;
 		font-size: 18px !important;
 	}
@@ -3994,7 +3994,7 @@
 
 	
 	.welcome_link .row .btnw1 {
-		margin-top: 100px !important;
+		margin-top: 130px !important;
 	}
 
 	.welcome_link .row .btnw2 {
@@ -4065,6 +4065,21 @@
 
 	.team_email .fa {
 		font-size: 15px;
+	}
+
+	.wel_abt p {
+     	text-align: left;
+		margin-left: -50px !important;
+	}
+
+	.proj .button_section {
+		text-align: center !important;
+		margin-left: -60px !important;
+		margin-top: -80px !important;
+	}
+
+	footer {
+		margin-top: 100px !important;
 	}
 
 }
@@ -4354,7 +4369,7 @@
 
 	
 	.welcome_link .row .btnw1 {
-		margin-top: 100px !important;
+		margin-top: 130px !important;
 	}
 
 	.welcome_link .row .btnw2 {
@@ -4434,6 +4449,21 @@
 
 	.team_member .about_body {
 		text-align: center;
+	}
+
+	.wel_abt p {
+		text-align: left;
+		margin-left: -28px !important;
+	}
+
+	.proj .button_section {
+		text-align: center !important;
+		margin-left: -60px !important;
+		margin-top: -80px !important;
+	}
+
+	footer {
+		margin-top: 100px !important;
 	}
 }
 
@@ -4702,7 +4732,7 @@
 
 	
 	.welcome_link .row .btnw1 {
-		margin-top: 100px !important;
+		margin-top: 130px !important;
 	}
 
 	.welcome_link .row .btnw2 {
@@ -4783,5 +4813,26 @@
 		text-align: center;
 	}
 
+	.wel_abt p {
+     	text-align: left;
+		margin-left: 0px !important;
+	}
 
+	.proj .button_section {
+		text-align: center !important;
+		margin-left: -60px !important;
+		margin-top: -80px !important;
+	}
+
+	footer {
+		margin-top: 100px !important;
+	}
+
+	.footer_links .img-responsive {
+		width: 100px !important;
+	}
+
+	.services-box .flip-box-inner {
+		margin-left: -22px !important;
+	}
 }
